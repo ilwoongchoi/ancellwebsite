@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.content-section {
+  padding: 40px;
+  background-color: #e4e0db;
+  min-height: 600px;
+  text-align: center;
+}
+
+.grid-container,
+.grid-container2,
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Gap between grid items */
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  position: relative;
+  height: 450px;
+  background-size: cover;
+  width: 700px;
+  margin: 20px; /* Adjust margin as needed */
+}
+
+#grid-item1 {
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483.jpg");
+  z-index: 1;
+}
+
+#grid-item3 {
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092836761_29.jpg");
+  z-index: 1;
+}
+
+#grid-item5 {
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092836761_26.jpg");
+  z-index: 1;
+}
+
+#grid-item2,
+#grid-item4,
+#grid-item6,
+#grid-item7,
+#grid-item8,
+#grid-item9 {
+  position: absolute;
+  z-index: 2;
+  width: 70%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#content-section {
+  background-color: #e4e0db;
+}
+
+#contentsection {
+  background-color: #e4e0db;
+}
+
+#grid-item7 {
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092836761_28.jpg");
+  z-index: 3;
+}
+
+#grid-item8 {
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092836761_27.jpg");
+  z-index: 3;
+}
+
+#grid-item9 {
+  z-index: 3;
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092836761_25.png");
+}
+
+#grid-container2 {
+  padding: 20px;
+}
+
+#h2 {
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 100px;
+  font-family: "Arial";
+}
+
+#grid-item4 {
+  letter-spacing: 0;
+}
+#grid-container2 {
+  padding: 20px;
+}
+
+#h2 {
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 100px;
+  font-family: "Arial";
+}
+
+#grid-item4 {
+  letter-spacing: 0px;
+}
+

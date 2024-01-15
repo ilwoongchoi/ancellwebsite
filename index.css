@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.content-section {
+  padding: 40px;
+  background-color: #f4f4f4;
+  min-height: 600px;
+}
+
+#BG_1704864446760_95683 {
+  background-image: url("../../Pictures/Home%20_%20Ancellbio_files/2691cb_29199fea8e5b48558d87a6c8dd871e79~mv2.jpg");
+}
+
+#BG_1704864465821_52117 {
+  background-size: cover;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  -webkit-font-feature-settings: "swsh";
+  font-feature-settings: "swsh";
+  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_113626345.jpg");
+}
+
