@@ -34,13 +34,20 @@ header {
 .content-section {
   padding: 40px;
   min-height: 600px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
 }
 
 #BG_1704864465821_52117 {
-  background: url("1.jpg") center/cover no-repeat;
   font-family: "Arial", "Helvetica", "sans-serif";
   -webkit-font-feature-settings: "swsh";
   font-feature-settings: "swsh";
-  min-height: 100vh;
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: url("1.jpg") center/cover no-repeat;
+}
