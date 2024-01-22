@@ -42,5 +42,8 @@ header {
   -webkit-font-feature-settings: "swsh";
   font-feature-settings: "swsh";
   background-image: url("1.jpg");
+  background-repeat: no-repeat;  /* Add this line */
+  background-position: center;   /* Add this line */
+  height: 100vh;                /* Add this line */
 }
 
