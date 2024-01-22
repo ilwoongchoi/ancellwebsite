@@ -32,9 +32,9 @@ header {
 }
 
 .content-section {
-  padding: 40px;
-  min-height: 600px;
-  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #BG_1704864465821_52117 {
@@ -49,5 +49,8 @@ body, html {
 }
 
 body {
-  background: url("1.jpg") center/cover no-repeat;
+    background-image: url('1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
