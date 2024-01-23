@@ -217,7 +217,7 @@ header {
 }
 
 #BG_1704872861549_59263 {
-  background-image: url("6.jpg"), url("5.jpg");
+  background-image: url("4.jpg");
   background-size: cover;
   text-align: justify;
   padding: 50px;
@@ -442,11 +442,6 @@ h2 {
   background-color: black;
 }
 
-#grid-item2 {
-  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483_15.jpg");
-  background-size: cover;
-}
-
 #grid-item4:hover::before, #grid-item5:hover::before, #grid-item6:hover::before {
   background-color: rgba(255, 0, 0, 0.5);
 }
@@ -505,7 +500,7 @@ h2 {
 }
 
 #grid-item2 {
-  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483_15.jpg");
+  background-image: url("6.jpg");
   background-size: cover;
 }
 
