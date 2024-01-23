@@ -234,16 +234,6 @@ header {
   overflow: hidden;
 }
 
-#BG_1704892788953_17083 {
-  display: grid;
-  background-image: url("../../Pictures/Home%20_%20Ancellbio_files/2691cb_17400c2b6c864ea995c00586dc7f7a10~mv2.jpg");
-}
-
-#BG_1704892693238_5441 {
-  background-size: cover;
-  background-image: url("../../Pictures/Home%20_%20Ancellbio_files/2691cb_17400c2b6c864ea995c00586dc7f7a10~mv2.jpg");
-}
-
 #BG_1704894385798_67511 {
   background-image: url("../../Pictures/Home%20_%20Ancellbio_files/2691cb_17400c2b6c864ea995c00586dc7f7a10~mv2.jpg"), url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483_14.jpg");
   background-size: cover;
@@ -254,9 +244,6 @@ header {
   width: 100%;
 }
 
-#BG_1704896525613_25375 {
-  background-image: url("../../Pictures/Home%20_%20Ancellbio_files/%EA%B8%80%EB%A1%9C%EB%B2%8C-06.png");
-}
 
 .content-section4 {
   width: 100%;
@@ -362,11 +349,6 @@ header {
   background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483_07.jpg");
   background-size: cover;
   background-color: black;
-}
-
-#grid-item2 {
-  background-image: url("../../Pictures/ancell%20website/KakaoTalk_20240111_092838483_15.jpg");
-  background-size: cover;
 }
 
 .grid-item span {
